@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(https://theflowerstudio.pk/wp-content/uploads/2023/01/Why-opt-for-flower-delivery-on-Valentines-Day.jpg) center center;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.time{
+    color: white;
+    text-align: center;
+    font-size: 6.5rem;
+    padding-top: 40px;
+}
+.col{
+    padding-top: 40px;
+    margin: auto;
+    display: flex;
+    /* width: 1000px; */
+    /* height: 100px; */
+    border: 1px red solid;
+    justify-content: center;
+    color: white;
+    gap: 5rem;
+}
+input{
+    border-radius: 20px;
+    width: 150px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
